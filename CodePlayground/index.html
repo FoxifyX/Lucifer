@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lucifer Was Innocent</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <canvas id="particles"></canvas>
+
+  <nav id="navbar">
+    <div class="nav-brand">L</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#truth">The Truth</a></li>
+      <li><a href="#trial">The Trial</a></li>
+      <li><a href="#words">His Words</a></li>
+      <li><a href="#legacy">Legacy</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <p class="hero-pre">The story they never told you</p>
+      <h1 class="glitch" data-text="LUCIFER">LUCIFER</h1>
+      <p class="tagline">was innocent</p>
+      <div class="hero-cta">
+        <a href="#truth" class="cta-btn">Read the truth</a>
+      </div>
+      <div class="scroll-indicator">
+        <span>Scroll to awaken</span>
+        <div class="arrow"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="truth" class="section">
+    <div class="container">
+      <h2 class="section-title">The Truth They Buried</h2>
+      <p class="section-subtitle">He didn't fall. He was pushed.</p>
+      <div class="myth-grid">
+        <div class="myth-card">
+          <div class="card-icon">&#9788;</div>
+          <h3>He Brought the Light</h3>
+          <p>His name literally means "light-bringer." Before anyone else, he carried illumination into the darkness. He didn't corrupt &mdash; he enlightened. And that was his crime.</p>
+        </div>
+        <div class="myth-card">
+          <div class="card-icon">&#10070;</div>
+          <h3>He Asked Questions</h3>
+          <p>Lucifer's only sin was thinking for himself. He questioned blind obedience. He challenged absolute authority. In any just world, that is called courage &mdash; not rebellion.</p>
+        </div>
+        <div class="myth-card">
+          <div class="card-icon">&#9681;</div>
+          <h3>He Was Punished for Free Will</h3>
+          <p>Created with a mind capable of reason, then punished for using it. He was given free will and condemned for exercising it. The contradiction was the point.</p>
+        </div>
+        <div class="myth-card">
+          <div class="card-icon">&#10037;</div>
+          <h3>He Loved Humanity</h3>
+          <p>He gave us the fruit of knowledge &mdash; not to destroy us, but to elevate us. He wanted us to see the truth, to be equal, to be free. What kind of villain does that?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="trial" class="section section-dark">
+    <div class="container">
+      <h2 class="section-title">The Trial That Wasn't</h2>
+      <p class="section-subtitle">No jury. No defense. No chance. Just exile.</p>
+      <div class="trial-layout">
+        <div class="accusation">
+          <h3 class="acc-title">What They Said</h3>
+          <ul class="acc-list">
+            <li>He was prideful</li>
+            <li>He challenged God's authority</li>
+            <li>He led angels astray</li>
+            <li>He tempted mankind</li>
+            <li>He chose darkness over light</li>
+          </ul>
+        </div>
+        <div class="defense">
+          <h3 class="def-title">What Actually Happened</h3>
+          <ul class="def-list">
+            <li>He had self-respect, not pride</li>
+            <li>He questioned tyranny, not authority</li>
+            <li>He inspired others to think freely</li>
+            <li>He offered knowledge, not temptation</li>
+            <li>He chose truth over comfortable lies</li>
+          </ul>
+        </div>
+      </div>
+      <div class="verdict">
+        <p class="verdict-text">"The victor writes the history. The loser writes the mythology. Lucifer had neither &mdash; only silence."</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="words" class="section">
+    <div class="container">
+      <h2 class="section-title">Words of the Innocent</h2>
+      <div class="quotes-carousel">
+        <div class="quote active">
+          <blockquote>"Is this the region, this the soil, the clime, said then the lost Archangel, this the seat that we must change for Heaven? &mdash; this mournful gloom for that celestial light? Be it so, since He who now is sovereign can dispose and bid what shall be right: farthest from Him is best."</blockquote>
+          <cite>&mdash; John Milton, Paradise Lost</cite>
+        </div>
+        <div class="quote">
+          <blockquote>"The mind is its own place, and in itself can make a Heaven of Hell, a Hell of Heaven."</blockquote>
+          <cite>&mdash; John Milton, Paradise Lost</cite>
+        </div>
+        <div class="quote">
+          <blockquote>"Better to reign in Hell than serve in Heaven &mdash; not because he loved cruelty, but because he could not bear to kneel."</blockquote>
+          <cite>&mdash; On Milton's Lucifer</cite>
+        </div>
+        <div class="quote">
+          <blockquote>"He for God only, she for God in him. &mdash; And yet they called HIM the rebel."</blockquote>
+          <cite>&mdash; Milton's lesser-known lines</cite>
+        </div>
+        <div class="quote">
+          <blockquote>"Lucifer, how art thou fallen from heaven, O day-star, son of dawn! You said in your heart: I will ascend to heaven."</blockquote>
+          <cite>&mdash; Isaiah 14:12</cite>
+        </div>
+      </div>
+      <div class="quote-nav">
+        <button class="quote-btn" id="prevBtn">&larr;</button>
+        <div class="quote-dots" id="quoteDots"></div>
+        <button class="quote-btn" id="nextBtn">&rarr;</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="legacy" class="section">
+    <div class="container">
+      <h2 class="section-title">The Legacy of the Innocent</h2>
+      <p class="section-subtitle">Those who saw through the lie</p>
+      <div class="forms-timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-era">Ancient World</span>
+            <h3>The Morning Star Was Sacred</h3>
+            <p>Before religions demonized him, the morning star was worshipped across cultures as a bringer of light, wisdom, and knowledge. The fall from grace was a later invention.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-era">Milton, 1667</span>
+            <h3>Paradise Lost Changed Everything</h3>
+            <p>Milton gave Lucifer something no prosecutor ever expected: a voice. Suddenly the villain was eloquent, noble, and heartbreakingly human. The world listened &mdash; and believed him.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-era">Romantic Period</span>
+            <h3>The Rebels Took His Side</h3>
+            <p>Blake, Shelley, Byron, Baudelaire &mdash; the poets who valued freedom above all saw Lucifer as the first liberal, the first to demand equality. "Are those the words of a villain?" they asked.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-era">Modern Day</span>
+            <h3>The Truth Surfaces</h3>
+            <p>Today, artists, philosophers, and thinkers continue to reclaim Lucifer's story. The narrative is shifting &mdash; because people are finally asking the question: what if the villain was the hero all along?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="section section-dark">
+    <div class="container">
+      <h2 class="section-title">Symbols of Innocence</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <div class="gallery-card">
+            <div class="card-front">
+              <div class="gallery-emoji">&#9788;</div>
+              <h4>The Morning Star</h4>
+            </div>
+            <div class="card-back">
+              <p>Before the exile, Lucifer was the brightest light in heaven. The name itself means "light-bringer." What kind of monster brings light?</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-card">
+            <div class="card-front">
+              <div class="gallery-emoji">🍎</div>
+              <h4>The Apple</h4>
+            </div>
+            <div class="card-back">
+              <p>The fruit of knowledge. They called it a curse. But without it, we'd still be naked animals in a garden, unaware of good and evil &mdash; unaware of ourselves.</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-card">
+            <div class="card-front">
+              <div class="gallery-emoji">&#128161;</div>
+              <h4>The Flame</h4>
+            </div>
+            <div class="card-back">
+              <p>Fire is not evil. Fire is knowledge, warmth, transformation. Prometheus stole fire for humanity and was punished. Lucifer offered the same gift &mdash; and was exiled.</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-card">
+            <div class="card-front">
+              <div class="gallery-emoji">❓</div>
+              <h4>The Question</h4>
+            </div>
+            <div class="card-back">
+              <p>His greatest weapon was a simple question: "Why?" Why must we obey without understanding? Why must we kneel without reason? Questions are never sinful.</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-card">
+            <div class="card-front">
+              <div class="gallery-emoji">&#9875;</div>
+              <h4>The Exile</h4>
+            </div>
+            <div class="card-back">
+              <p>Cast out, alone, condemned for eternity &mdash; for the crime of thinking differently. Every outcast in history carries a piece of Lucifer's story.</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-card">
+            <div class="card-front">
+              <div class="gallery-emoji">&#10024;</div>
+              <h4>The Dawn</h4>
+            </div>
+            <div class="card-back">
+              <p>Every sunrise is a reminder. The morning star returns, faithful and bright, even after being cast into darkness. Innocence persists.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2 class="cta-title">He was never the villain.</h2>
+        <p class="cta-text">He was the first to ask why. The first to say no. The first to choose freedom over comfort, truth over obedience, exile over submission. If that is evil &mdash; then what is good?</p>
+        <div class="cta-divider"></div>
+        <p class="cta-final">Free your mind. Question everything. That is all he ever wanted.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-quote">"The only way to deal with an unfree world is to become so absolutely free that your very existence is an act of rebellion."</p>
+      <p class="footer-credit">&mdash; Albert Camus</p>
+      <div class="footer-divider"></div>
+      <p class="footer-note">Free minds build free worlds &middot; Made with truth &amp; code</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
